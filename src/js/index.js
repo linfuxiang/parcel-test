@@ -1,3 +1,4 @@
+import 'babel-polyfill'
 import '../css/index.scss'
 import { aaa } from './common.js'
 // 渲染页面
