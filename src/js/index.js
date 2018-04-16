@@ -8,7 +8,9 @@ console.log('%c你好吗', 'color: red;')
 console.log('%c我不好', 'color: green;')
 aaa()
 var sett = new Set([1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6]);
+var arr = [...sett];
 var sym = Symbol();
+console.log(arr.includes(1), 5 ** 5)
 
 console.log([...sett]);
 
