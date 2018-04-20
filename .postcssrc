@@ -1,7 +1,7 @@
 {
   	"plugins": {
     	"autoprefixer": {
-      		"browsers": ['last 20 versions', 'Android >= 4.0']
+      		"browsers": ['last 20 versions']
     	}
   	}
 }
