@@ -7,10 +7,13 @@
 </head>
 
 <body>
-    <div>ES6/ES7/Sass测试</div>
-    <a href="./vue.html">跳转到Vue实例</a>
+    <div>直接引入Vue</div>
+    <a href="./index.html">跳转到index</a>
     <a href="./vue-single.html">跳转到Vue单文件组件</a>
-    <script src="../js/index.js"></script>
+    <div id="app" v-cloak>
+        {{ name }}
+    </div>
+    <script src="../js/vue.js"></script>
 </body>
 
 </html>

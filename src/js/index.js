@@ -1,5 +1,5 @@
 import 'babel-polyfill'
-import '../css/index.scss'
+import '../scss/index.scss'
 import { aaa } from './common.js'
 // 渲染页面
 let a = 'red'
